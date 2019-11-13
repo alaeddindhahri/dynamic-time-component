@@ -20,3 +20,26 @@
 .App-link {
   color: #09d3ac;
 }
+.timer-display{
+  display:flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.time{
+  display:flex;
+  justify-content: center;
+  font-size: 80px;
+}
+.time p{
+  margin: 0px;
+}
+.time-caption{
+  display:flex;
+  justify-content: center;
+  font-size: 16px;
+}
+.time-caption p{
+  margin: 0px 25px;
+  color: gray;
+}
